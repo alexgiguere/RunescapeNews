@@ -1,7 +1,7 @@
 {
   "manifest_version" : 2,
-  "name": "RuneScape News",
-  "version": "1.0",
+  "name": "RuneScapeNews",
+  "version": "1.2",
 
   "description": "Check RuneScape's latests updates and take a look at your friends adventurer's log !",
   "icons": { "16" : "images/icon.png",

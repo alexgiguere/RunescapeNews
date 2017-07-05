@@ -69,7 +69,7 @@
 
 .playersearchbtn {
   margin: 0 0 0 -7px;
-  padding:9px;
+  padding: 8 9 10 9px;
   background:linear-gradient(#fff2c5,#fad54f,#ffb500,#ce720a);
   -webkit-appearance:none;
   border-radius:0;
@@ -261,4 +261,9 @@ h4 {
   font-family: "MuseoSans";
   color: #d7dbe1;
   padding-left:13px;
+}
+
+.imgsearch {
+  height:12px;
+  width:12px;
 }
