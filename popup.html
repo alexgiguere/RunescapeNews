@@ -1,0 +1,33 @@
+
+<html>
+  <head>
+    <script src='scripts/jquery-1.6.1.min.js'></script>
+    <script src="scripts/fetch.js"></script>
+    <link rel="stylesheet" href="styles/post.css" type="text/css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div>
+      <div id="tabs" class="tabs">
+        <ul class="tabsbar" id="tabsbar">
+            <li class="active">
+              <span id="newstab" class="newstab">News</span>
+            </li>
+            <li class="">
+              <span id="adventlogtab" class="adventlogtab">Adventurer's log</span>
+            </li>
+        </ul>
+        <div id="divplayername">
+            <input type="text" name="playername" id="playername" class="inputplayer" maxlength="12" placeholder="Search for a player">
+            <button class="playersearchbtn">
+              <i class="fa fa-search"></i>
+            </button>
+        </div>
+        <div id="tabscontent">
+          <div id="news"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
